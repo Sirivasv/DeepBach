@@ -433,5 +433,5 @@ if __name__ == '__main__':
         'app.log', maxBytes=10000, backupCount=5)
 
     app.logger.addHandler(file_handler)
-    app.logger.setLevel(logging.INFO)
+    app.logger.setLevel(logging.DEBUG)
 init_app()
